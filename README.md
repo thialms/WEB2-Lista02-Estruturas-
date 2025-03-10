@@ -1,5 +1,8 @@
 # WEB2-Lista02-Estruturas-
 
+![image](https://github.com/user-attachments/assets/c62f595c-3aaa-4bdf-8947-708d8461f976)
+
+
 Em dupla ou individualmente, desenvolva um programa em PHP que simule o jogo da Mega Sena:
 
 Crie uma função que gere 6 números aleatórios entre 1 e 60, que devem ser organizados em ordem crescente e armazenados em um array.
