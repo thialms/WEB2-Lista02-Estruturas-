@@ -1,16 +1,51 @@
 # WEB2-Lista02-Estruturas-
 
-![image](https://github.com/user-attachments/assets/c62f595c-3aaa-4bdf-8947-708d8461f976)
+Você deve desenvolver um sistema em PHP que simula apostas na Mega Sena, contendo:
 
+Página de Login
 
-Em dupla ou individualmente, desenvolva um programa em PHP que simule o jogo da Mega Sena:
+O login deve ser feito com o e-mail "aluno@fatec.edu.br" e a senha "alunoweb2".
 
-Crie uma função que gere 6 números aleatórios entre 1 e 60, que devem ser organizados em ordem crescente e armazenados em um array.
-Em seguida, crie um formulário que permita ao usuário inserir 6 números para apostar. Cada número deve ter um campo de entrada, onde o jogador pode escolher um número entre 1 e 60.
-Após receber os dados da aposta, o programa deve comparar os números apostados com os sorteados e verificar quantos números o usuário acertou.
-Exiba na página todos os números apostados e o número de acertos, juntamente com uma das mensagens a seguir:
-Se o usuário acertar 6 números: "Parabéns, você ganhou na Mega Sena!"
-Se o usuário acertar 5 números: "Quase lá, você acertou na Quina!"
-Se o usuário acertar 4 números: "Legal, você fez uma Quadra!"
-Se o usuário acertar 3 números ou menos: "Não foi dessa vez, tente novamente!"
-Toda a página deve ser estilizada com CSS e/ou Bootstrap.
+Após login bem-sucedido, criar um cookie e uma sessão armazenando o e-mail do usuário.
+
+O e-mail armazenado no cookie deve ser utilizado para preencher automaticamente o campo de e-mail ao acessar o site.
+
+Página de Apostas
+
+Exibir o e-mail do usuário, um botão "Sair" para encerrar a sessão e um link para a loja.
+
+Criar uma função que gere 6 números aleatórios (1 a 60) e os ordene.
+
+Criar um formulário para o usuário inserir 6 números para aposta.
+
+Após a aposta, salvar os dados em um arquivo de texto contendo:
+
+Data e hora da aposta
+
+Números apostados e sorteados
+
+Quantidade de acertos
+
+Exibir o resultado da aposta com mensagens personalizadas:
+
+6 acertos: "Parabéns, você ganhou na Mega Sena!"
+
+5 acertos: "Quase lá, você acertou na Quina!"
+
+4 acertos: "Legal, você fez uma Quadra!"
+
+3 acertos ou menos: "Não foi dessa vez, tente novamente!"
+
+Mostrar todas as apostas do usuário lendo os arquivos salvos.
+
+Permitir a exclusão das apostas (arquivos).
+
+Página da Loja
+
+Simular uma loja utilizando a Fake Store API (https://fakestoreapi.com/products).
+
+Exibir os produtos da API com um botão "Comprar".
+
+Ao clicar, o nome do produto deve ser passado para a página de checkout.
+
+Após finalizar a compra, redirecionar o usuário de volta para a loja.
